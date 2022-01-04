@@ -24,8 +24,8 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Question", name: "question", widget: "text", required: true}
-      - {label: "Answer", name: "answer", widget: "markdown", required: true}
+      - {label: "Question", name: "question", widget: "text"}
+      - {label: "Answer", name: "answer", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
